@@ -39,7 +39,7 @@ public class NewClass {
             String mAdminDBName = "admin";
             String uname = "AppUser";
             String password = "csKz4piRsRg1";
-            System.out.println("Mongo dbname: " + mAdminDBName + " uname: " + uname + " password: " + password);
+            System.out.println("111Mongo dbname: " + mAdminDBName + " uname: " + uname + " password: " + password);
             if (uname != null && password != null) {
                 if (!m.getDB(mAdminDBName).authenticate(uname, password.toCharArray())) {
 //                        return false;
